@@ -10,7 +10,7 @@
   </head>
   <body>
     <header>
-      <div id="logo">
+      <div class="logo">
         <a href="#"><img src="images/logo/Reservia.svg" /></a>
       </div>
       <nav>
@@ -21,5 +21,44 @@
         </ul>
       </nav>
     </header>
+    <main>
+      <section class="search">
+        <h1>Trouvez votre hébergement pour des vaccances de rêve</h1>
+        <p>En plein centre ville ou en pleine nature</p>
+        <form method="post" action="#">
+          <span class="fa fa-map-marker" aria-hidden="true"></span>
+          <input
+            type="search"
+            class="search_field"
+            name="position"
+            value="Marseille,France"
+          />
+          <button>Recherche</button>
+        </form>
+        <div class="search_filter">
+          <h3>Filtres</h3>
+          <span class="search_filter_eco"
+            ><span class="fa fa-money" aria-hidden="true"></span
+            >Économique</span
+          >
+          <span class="search_filter_family"
+            ><span class="fa fa-users" aria-hidden="true"></span>Familial</span
+          >
+          <span class="search_filter_romantic"
+            ><span class="fa fa-heart" aria-hidden="true"></span
+            >Romantique</span
+          >
+          <span class="search_filter_animals"
+            ><span class="fa fa-paw" aria-hidden="true"></span>Animaux
+            autorisés</span
+          >
+        </div>
+
+        <div class="search_howmany">
+          <span class="fa fa-info" aria-hidden="true"></span>
+          <p>Plus de 500 logements sont disponible dans cette ville</p>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
