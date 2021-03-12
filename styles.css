@@ -147,3 +147,24 @@ aside {
   text-decoration: none;
   margin: 15px;
 }
+
+.activity {
+  display: flex;
+  flex-direction: row;
+}
+
+footer {
+  display: flex;
+  background-color: #f2f2f2;
+}
+footer ul {
+  margin-right: 10%;
+}
+
+footer li {
+  list-style-type: none;
+}
+
+footer a {
+  text-decoration: none;
+}
