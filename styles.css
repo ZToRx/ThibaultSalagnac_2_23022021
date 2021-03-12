@@ -101,3 +101,49 @@ button {
 .search_howmany p {
   font-size: 0.8em;
 }
+
+.results {
+  display: flex;
+  flex-direction: row;
+}
+
+#results_filtered {
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f2f2;
+  padding: 40px;
+  width: 60%;
+  margin-right: 35px;
+}
+
+.accommodation_wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.accommodation_wrap a {
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  margin: 15px;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f2f2;
+  padding: 40px;
+  width: 40%;
+}
+
+.accommodation_column {
+  display: flex;
+  flex-direction: column;
+}
+
+.accommodation_column a {
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  margin: 15px;
+}
