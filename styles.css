@@ -1,10 +1,44 @@
 @font-face {
   font-family: "railwayregular";
-  src: url("Railway-webfont.eot");
-  src: url("Railway-webfont.eot?#iefix") format("embedded-opentype"),
-    url("Railway-webfont.woff") format("woff"),
-    url("Railway-webfont.ttf") format("truetype"),
-    url("Railway-webfont.svg#railwayregular") format("svg");
+  src: url("fonts/railway/Railway-webfont.eot");
+  src: url("fonts/railway/Railway-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/railway/Railway-webfont.woff") format("woff"),
+    url("fonts/railway/Railway-webfont.ttf") format("truetype"),
+    url("fonts/railway/Railway-webfont.svg#railwayregular") format("svg");
   font-weight: normal;
   font-style: normal;
+}
+
+body {
+  font-family: "railwayregular", "Arial Narrow Bold", sans-serif;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  list-style-type: none;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  padding-top: 80px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.current {
+  border-top: 2px solid #0065fc;
 }
