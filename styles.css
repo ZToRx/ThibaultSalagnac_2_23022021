@@ -42,3 +42,62 @@ nav a {
 .current {
   border-top: 2px solid #0065fc;
 }
+
+form {
+  display: flex;
+}
+
+.fa-map-marker {
+  background-color: #f2f2f2;
+  border-radius: 12px 0 0 12px;
+  padding: 10px 15px 10px 15px;
+}
+
+input[type="search"] {
+  border: 1px #f2f2f2 solid;
+  padding-left: 15px;
+  font-weight: bold;
+}
+
+button {
+  border: none;
+  border-radius: 0 12px 12px 0;
+  background-color: #0065fc;
+  color: white;
+  font-weight: bold;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.search_filter {
+  display: flex;
+  align-items: center;
+  font-size: 0.8em;
+}
+
+.search_filter p {
+  border-top: 2px #d9d9d9 solid;
+  border-bottom: 2px #d9d9d9 solid;
+  border-right: 2px #d9d9d9 solid;
+  margin-left: 20px;
+  border-radius: 20px;
+}
+
+.search_filter .fa {
+  padding: 12px;
+  background-color: #deebff;
+  border-radius: 100px;
+  color: #0065fc;
+}
+
+.search_howmany .fa {
+  padding: 4px 7px 4px 7px;
+  border-radius: 25px;
+  color: #0065fc;
+  border: 1px #d9d9d9 solid;
+  margin-right: 15px;
+}
+
+.search_howmany p {
+  font-size: 0.8em;
+}
