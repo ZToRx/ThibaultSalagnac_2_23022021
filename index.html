@@ -10,16 +10,16 @@
   </head>
   <body>
     <header>
-      <div class="logo">
         <a href="#"><img src="images/logo/Reservia.svg" /></a>
-      </div>
       <nav>
+        <a href="#" class="register">S'inscrire</a>
         <ul>
-          <li class="current"><a href="#">Hébergements</a></li>
+          <li ><a href="#" class="current">Hébergements</a></li>
           <li><a href="#">Activités</a></li>
-          <li><a href="#">S'inscrire</a></li>
         </ul>
+        
       </nav>
+      
     </header>
     <main>
       <section class="search">
@@ -37,10 +37,10 @@
         </form>
         <div class="search_filter">
           <h3>Filtres</h3>
-            <p><span class="fa fa-money" aria-hidden="true"></span>Économique</p>
-            <p><span class="fa fa-users" aria-hidden="true"></span>Familial</p>
-            <p><span class="fa fa-heart" aria-hidden="true"></span>Romantique</p>
-            <p><span class="fa fa-paw" aria-hidden="true"></span>Animaux autorisés</p>
+          <div><span class="fa fa-money" aria-hidden="true"></span><p>Économique</p></div>
+          <div><span class="fa fa-users" aria-hidden="true"></span><p>Familial</p></div>
+          <div><span class="fa fa-heart" aria-hidden="true"></span><p>Romantique</p></div>
+          <div><span class="fa fa-paw" aria-hidden="true"></span><p>Animaux autorisés</p></div>
         </div>
 
         <div class="search_howmany">
@@ -50,10 +50,8 @@
 
       <section class="results">
         <div id="results_filtered">
-          <header>
             <h2>Hébergements à Marseille</h2>
-          </header>
-          <div class="accommodation_wrap">
+          <div class="accommodation_grid">
             <a href="#">
               <span class="results_filtered_1"></span>
               <h3>Auberge la Cannebière</h3>
@@ -137,15 +135,11 @@
               </span>
             </a>
           </div>
-          <footer class="results_showmore">
             <a href="#">Afficher plus</a>
-          </footer>
         </div>
         <aside>
-          <header>
-            <h2>Les plus populaires</h2>
-            <span class="fa fa-line-chart" aria-hidden="true"></span>
-          </header>
+            <h2>Les plus populaires<span class="fa fa-line-chart" aria-hidden="true"></span></h2>
+            
           <div class="accommodation_column">
             <a href="#">
               <span class="results_mostfamous_1"></span>
