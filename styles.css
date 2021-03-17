@@ -51,6 +51,7 @@ nav li {
 
 nav a {
   text-decoration: none;
+  color: black;
   padding-top: 30px;
   padding-right: 20px;
   padding-left: 20px;
@@ -99,6 +100,12 @@ button {
   padding-right: 20px;
 }
 
+button:hover{
+  background-color: #deebff;
+  color: #0065fc;
+  cursor: pointer;
+}
+
 .search_filter {
   display: flex;
   align-items: baseline;
@@ -119,6 +126,13 @@ button {
   border-radius: 25px;
 }
 
+.search_filter p:hover {
+  background-color: #0065fc;
+  color: #deebff;
+  border-color: #0065fc;
+  cursor: pointer;
+}
+
 .search_filter .fa {
   position: relative;
   left: 40px;
@@ -130,8 +144,9 @@ button {
 }
 
 .search_howmany .fa {
-  padding: 4px 7px 4px 7px;
-  border-radius: 25px;
+  font-size: 0.8em;
+  padding: 5px 10px 5px 10px;
+  border-radius: 30px;
   color: #0065fc;
   border: 1px #d9d9d9 solid;
   margin-right: 15px;
@@ -409,6 +424,15 @@ footer {
   margin-top: 30px;
 }
 
+footer .title{
+  display: block;
+  font-weight: bold;
+  font-size: 1.17em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-bottom: 0;
+}
+
 footer ul {
   margin-right: 10%;
   padding-right: 50px;
@@ -416,8 +440,10 @@ footer ul {
 
 footer li {
   list-style-type: none;
+  padding-bottom: 10px;
 }
 
 footer a {
   text-decoration: none;
+  color: black;
 }
