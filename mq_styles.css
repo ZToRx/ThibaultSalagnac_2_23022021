@@ -163,7 +163,7 @@ body {
 
   .search_filter h3 {
     font-size: 20px;
-    padding-right: 1000px;
+    padding-right: 480px;
   }
 
   .search_howmany p span {
@@ -292,6 +292,11 @@ body {
     position: relative;
     bottom: 45px;
     border-bottom: none;
+  }
+
+  .search_filter h3 {
+    font-size: 20px;
+    padding-right: 140px;
   }
 
   #results_filtered {
