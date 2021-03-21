@@ -32,27 +32,30 @@ header {
 
 h1 {
   margin: 0;
+  padding-bottom: 10px;
 }
 
 nav {
   display: flex;
   flex-direction: row-reverse;
   align-items: baseline;
+  height: 100%;
 }
 
 nav ul {
   display: flex;
+  margin-top: 0;
 }
 
 nav li {
   list-style-type: none;
-  padding-bottom: 40px;
+  margin-bottom: 40px;
+  padding-top: 40px;
 }
 
 nav a {
   text-decoration: none;
   color: black;
-  padding-top: 30px;
   padding-right: 20px;
   padding-left: 20px;
 }
@@ -69,6 +72,7 @@ nav a {
 
 .search p {
   margin-top: 0;
+  margin-bottom: 30px;
 }
 
 form {
@@ -120,6 +124,10 @@ button:hover {
 .search_filter div {
   display: flex;
   align-items: baseline;
+}
+
+.search_filter h3 {
+  margin-top: 40px;
 }
 
 .search_filter p {
@@ -241,7 +249,7 @@ button:hover {
 }
 
 .results_filtered_4 {
-  background: url(images/hebergements/1_xlarge/Hotel_de_la_mer.jpg) no-repeat
+  background: url(images/hebergements/2_large/Hotel_de_la_mer.jpg) no-repeat
     center;
 }
 
