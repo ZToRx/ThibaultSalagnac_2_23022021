@@ -1,0 +1,490 @@
+body {
+  font-size: 16px;
+}
+
+.search_filter p {
+  padding: 6px 20px 9px 50px;
+}
+
+@media screen and (max-width: 1440px) {
+  body {
+    font-size: 14px;
+  }
+
+  .search_filter p {
+    font-size: 16px;
+    padding: 7px 20px 9px 50px;
+  }
+
+  .results h2 {
+    margin-left: 10px;
+  }
+
+  #results_filtered {
+    padding: 20px;
+  }
+
+  .accommodation_grid a {
+    margin: 10px;
+  }
+
+  .showmore {
+    margin-left: 10px;
+  }
+
+  aside {
+    padding: 20px;
+  }
+
+  .accommodation_column a {
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  body {
+    font-size: 16px;
+  }
+
+  .search_filter p {
+    padding: 9px 20px 10px 50px;
+  }
+
+  header {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  main {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .results {
+    flex-direction: column-reverse;
+    height: auto;
+  }
+
+  .results h2 {
+    margin-left: 20px;
+  }
+
+  #results_filtered {
+    width: auto;
+    padding: 15px;
+    margin-right: 0;
+    margin-top: 50px;
+  }
+
+  .accommodation_grid a {
+    margin: 15px;
+  }
+
+  .results_filtered_1 {
+    background: url(images/hebergements/3_medium/Auberge_la_cannebiere.jpg)
+      no-repeat center;
+  }
+
+  .results_filtered_2 {
+    background: url(images/hebergements/3_medium/Hotel_du_port.jpg) no-repeat
+      center;
+  }
+
+  .results_filtered_3 {
+    background: url(images/hebergements/3_medium/Hotel_les_mouettes.jpg)
+      no-repeat center;
+  }
+
+  .results_filtered_4 {
+    background: url(images/hebergements/3_medium/Hotel_de_la_mer.jpg) no-repeat
+      center;
+  }
+
+  .results_filtered_5 {
+    background: url(images/hebergements/3_medium/Auberge_le_panier.jpg)
+      no-repeat center;
+  }
+
+  .results_filtered_6 {
+    background: url(images/hebergements/3_medium/Hotel_chez_amina.jpg) no-repeat
+      center;
+  }
+
+  .showmore {
+    margin-left: 20px;
+  }
+
+  aside {
+    width: auto;
+    height: 24em;
+    padding: 15px;
+  }
+
+  .accommodation_column {
+    grid-template: 1fr/ 1fr 1fr 1fr;
+  }
+
+  .accommodation_column a {
+    flex-direction: column;
+    margin: 15px;
+  }
+
+  .mostfamous_desc {
+    height: 40%;
+    width: 100%;
+  }
+
+  .results_mostfamous_1 {
+    width: auto;
+    height: 60%;
+    border-radius: 25px 25px 0 0;
+  }
+
+  .results_mostfamous_2 {
+    width: auto;
+    height: 60%;
+    border-radius: 25px 25px 0 0;
+  }
+
+  .results_mostfamous_3 {
+    width: auto;
+    height: 60%;
+    border-radius: 25px 25px 0 0;
+  }
+
+  .activity_1 {
+    background: url(images/activites/3_medium/Vieux_port.jpg) no-repeat center;
+  }
+
+  .activity_2 {
+    background: url(images/activites/3_medium/Fort_pomegues.jpg) no-repeat
+      center;
+  }
+
+  .activity_3 {
+    background: url(images/activites/3_medium/Parc_national_des_calanques.jpg)
+      no-repeat center;
+  }
+
+  .activity_4 {
+    background: url(images/activites/3_medium/Notre_dame_de_la_garde.jpg)
+      no-repeat center;
+  }
+
+  .activity_5 {
+    background: url(images/activites/3_medium/Iles_du_frioul.jpg) no-repeat
+      center;
+  }
+
+  .activity_6 {
+    background: url(images/activites/3_medium/Parc_longchamps.jpg) no-repeat
+      center;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  body {
+    font-size: 18px;
+  }
+
+  main {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .search_filter div {
+    font-size: 16px;
+  }
+
+  .search_filter p {
+    padding: 7px 20px 9px 50px;
+  }
+
+  .search {
+    padding: 20px;
+  }
+
+  .fa-map-marker {
+    font-size: 25px;
+  }
+
+  input[type="search"] {
+    width: 210px;
+    padding-left: 10px;
+    font-size: 20px;
+  }
+
+  button {
+    position: relative;
+    left: -20px;
+    font-size: 0;
+    border-radius: 20px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+
+  .fa-search {
+    font-size: 20px;
+  }
+
+  .search_filter h3 {
+    font-size: 20px;
+    width: 100vw;
+  }
+
+  .search_howmany p span {
+    float: left;
+  }
+
+  #results_filtered {
+    grid-template: 50px 67em 50px / 1fr;
+    border-radius: 0;
+    background-color: white;
+    height: 72em;
+  }
+
+  .accommodation_grid {
+    grid-template: 1fr 1fr 1fr / 1fr 1fr;
+    height: 60em;
+    font-size: 20px;
+  }
+
+  .results_filtered_1 {
+    background: url(images/hebergements/4_small/Auberge_la_cannebiere.jpg)
+      no-repeat center;
+  }
+
+  .results_filtered_2 {
+    background: url(images/hebergements/4_small/Hotel_du_port.jpg) no-repeat
+      center;
+  }
+
+  .results_filtered_3 {
+    background: url(images/hebergements/4_small/Hotel_les_mouettes.jpg)
+      no-repeat center;
+  }
+
+  .results_filtered_4 {
+    background: url(images/hebergements/4_small/Hotel_de_la_mer.jpg) no-repeat
+      center;
+  }
+
+  .results_filtered_5 {
+    background: url(images/hebergements/4_small/Auberge_le_panier.jpg) no-repeat
+      center;
+  }
+
+  .results_filtered_6 {
+    background: url(images/hebergements/4_small/Hotel_chez_amina.jpg) no-repeat
+      center;
+  }
+
+  aside {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    height: 40em;
+    border-radius: 0;
+  }
+
+  .accommodation_column {
+    grid-template: 1fr 1fr 1fr / 1fr;
+  }
+
+  .accommodation_column a {
+    font-size: 17px;
+    flex-direction: row;
+    margin-top: 7px;
+  }
+
+  .mostfamous_desc {
+    height: auto;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-right: 5px;
+    font-size: 20px;
+    width: 60%;
+  }
+
+  .results_mostfamous_1 {
+    height: 100%;
+    width: 40%;
+    border-radius: 25px 0 0 25px;
+  }
+
+  .results_mostfamous_2 {
+    height: 100%;
+    width: 40%;
+    border-radius: 25px 0 0 25px;
+  }
+
+  .results_mostfamous_3 {
+    height: 100%;
+    width: 40%;
+    border-radius: 25px 0 0 25px;
+  }
+
+  .activity {
+    grid-template: 1fr 1fr 1fr 1fr / 50% 50%;
+    height: 40em;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .large_1 {
+    grid-row: 1/3;
+  }
+
+  .large_2 {
+    grid-area: 3/1/5/1;
+  }
+
+  #activity h2 {
+    margin-left: 35px;
+  }
+
+  footer {
+    flex-direction: column;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  header {
+    height: 150px;
+    flex-direction: column;
+    align-items: baseline;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 60px;
+  }
+
+  header a img {
+    width: 120px;
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+
+  nav {
+    flex-wrap: wrap;
+    font-size: 22px;
+    width: 100%;
+  }
+
+  nav ul {
+    padding: 0;
+    width: 100%;
+  }
+
+  nav li {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #f2f2f2;
+  }
+
+  .current {
+    border-top: none;
+    border-bottom: 3px solid #0065fc;
+  }
+
+  .register {
+    position: relative;
+    bottom: 45px;
+    border-bottom: none;
+  }
+
+  input[type="search"] {
+    width: 210px;
+    padding-left: 10px;
+  }
+
+  .search_filter h3 {
+    font-size: 20px;
+  }
+
+  .search_filter p {
+    padding: 7px 20px 9px 50px;
+  }
+
+  #results_filtered {
+    height: 2100px;
+    grid-template: 50px 2000px 50px / 1fr;
+  }
+
+  .accommodation_grid {
+    grid-template: 1fr 1fr 1fr 1fr 1fr 1fr / 1fr;
+    height: 100em;
+  }
+
+  aside {
+    height: auto;
+  }
+
+  .mostfamous_desc {
+    font-size: 16px;
+  }
+
+  .activity {
+    grid-template: 1fr 1fr 1fr 1fr 1fr 1fr / 1fr;
+    height: 90em;
+  }
+
+  .activity_1 {
+    background: url(images/activites/4_small/Vieux_port.jpg) no-repeat center;
+  }
+
+  .activity_2 {
+    background: url(images/activites/4_small/Fort_pomegues.jpg) no-repeat center;
+  }
+
+  .activity_3 {
+    background: url(images/activites/4_small/Parc_national_des_calanques.jpg)
+      no-repeat center;
+  }
+
+  .activity_4 {
+    background: url(images/activites/4_small/Notre_dame_de_la_garde.jpg)
+      no-repeat center;
+  }
+
+  .activity_5 {
+    background: url(images/activites/4_small/Iles_du_frioul.jpg) no-repeat
+      center;
+  }
+
+  .activity_6 {
+    background: url(images/activites/4_small/Parc_longchamps.jpg) no-repeat
+      center;
+  }
+
+  .large_1 {
+    grid-row: 1/1;
+  }
+
+  .large_2 {
+    grid-area: 3/1/3/1;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  body {
+    font-size: 16px;
+  }
+
+  nav {
+    font-size: 18px;
+  }
+
+  input[type="search"] {
+    width: 145px;
+    padding-left: 5px;
+    font-size: 14px;
+  }
+}
